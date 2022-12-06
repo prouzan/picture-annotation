@@ -1,0 +1,57 @@
+  a:hover {
+    text-decoration: none;
+  }
+
+  h1 {
+    color: #375e97;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*border-bottom: 1rem solid #375e97;*/
+    text-align: center;
+}
+
+.nav{
+  text-align:center;
+}
+
+.nav ul{
+  display: inline-block;
+  list-style-type: none;/*去除列表格式，消除小黑点*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(3, 4, 94);  /*颜色*/
+  width: 61.8%;
+}
+
+.nav li{
+  float:left;
+}
+
+
+li a{
+  display:block;/*块状显示，一块块的整齐*/
+  color:white;/*内容颜色白色*/
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  text-decoration: none;/*去掉下划线*/
+  text-align:center;
+  padding: 14px 16px;
+  width: 80px;/*每个宽度80px*/
+}
+
+.nav a{
+  display:block;
+  width: 135px;
+  height: 32px;
+}
+
+li a:hover{
+  background-color: blue;
+}
+
+.footer{
+  text-align:center;
+  border-style:groove;
+  border-width :5px ;
+  border-color:#375e97;
+}
